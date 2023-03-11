@@ -2,6 +2,8 @@ package com.example.registerandlogin;
 
 //Importing all necessary components
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -44,7 +46,8 @@ public class LoginActivity extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(this, "Call Login Method", Toast.LENGTH_SHORT).show(); //Instead of going to previous page I decided to show a quick toast because returning to previous page would be counter-intuitive
+            startActivity(new Intent(LoginActivity.this, HomePageActivity.class)); //Tells system to switch to Register Activity when register button is clicked
+            //Toast.makeText(this, "Call Login Method", Toast.LENGTH_SHORT).show(); //Instead of going to previous page I decided to show a quick toast because returning to previous page would be counter-intuitive
         }
 
     }

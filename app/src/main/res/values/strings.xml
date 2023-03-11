@@ -19,4 +19,19 @@
     <string name="loginLogo">Login</string>
     <string name="buttonLoginPage">Login</string>
     <string name="naruto_rankings">Naruto Rankings</string>
+    <string name="rules">Rules</string>
+    <string name="_3_most_importantly_enjoy">3. Most importantly, enjoy!</string>
+    <string name="_2_confirm_answer_s">2. Confirm answer(s)</string>
+    <string name="_1_select_answer_s">1. Select answer(s)</string>
+    <string name="start">START</string>
+    <string name="score">Score</string>
+    <string name="_0">0</string>
+    <string name="who_is_the_teacher_of_the_group_consisting_of_naruto_sasuke_and_sakura">Who is the teacher of the group consisting of Naruto, Sasuke, and Sakura?</string>
+    <string name="jiraiya">Jiraiya</string>
+    <string name="kakashi_hatake">Kakashi Hatake</string>
+    <string name="iruka_umino">Iruka Umino</string>
+    <string name="finish">finish</string>
+    <string name="finish_exit">Finish/Exit</string>
+    <string name="thank_you_for_playing">Thank you for playing!</string>
+    <string name="result1">result1</string>
 </resources>
